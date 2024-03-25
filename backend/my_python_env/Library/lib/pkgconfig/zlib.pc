@@ -1,0 +1,13 @@
+prefix=D:/VSCODE/TECHTIME/backend/my_python_env/Library
+exec_prefix=D:/VSCODE/TECHTIME/backend/my_python_env/Library
+libdir=D:/VSCODE/TECHTIME/backend/my_python_env/Library/lib
+sharedlibdir=D:/VSCODE/TECHTIME/backend/my_python_env/Library/lib
+includedir=D:/VSCODE/TECHTIME/backend/my_python_env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
